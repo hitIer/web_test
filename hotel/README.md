@@ -1,6 +1,6 @@
 HOTEL AND LODGE MANAGEMENT SYSTEM 2.0 SQLI
 
-Disclosure date: 10/24/19
+Disclosure date: 11/22/19
 
 Sourcecodester Hotel and Lodge Management System 2.0 is vulnerable to unauthenticated SQL injection and can allow remote attackers to execute arbitrary SQL commands via the 'email' parameter to the edit page for Customer, Room, Currency, Room Booking Details, or Tax Details.
 
@@ -33,4 +33,5 @@ btn_forgot=1&email=1' or sleep(5)%23
 ![Image text](3.jpg)
 
 by h1tler@knownsec
+
 email:h1tlermk6@gmail.com
